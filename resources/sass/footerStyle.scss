@@ -1,0 +1,34 @@
+@import 'vars';
+
+.page-footer {
+    background: linear-gradient(135deg, #DEDEDE 0%, #F6F6F6 30%);
+    box-shadow: -5px 5px 10px rgba(211, 211, 211, 0.2), 5px -5px 10px rgba(211, 211, 211, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(211, 211, 211, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(211, 211, 211, 0.5);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#dark-bg {
+    background-color: $dark-bg;
+    overflow-y: auto;
+}
+
+a:link, a:hover, a:active {
+    color: $link-color;
+}
+
+a:link {
+    color-decoration: none;
+}
+
+.list-unstyled {
+    font-size: 18px;
+    font-weight: 600;
+    color: $link-color;
+}
+
+.col-md-4 mx-auto {
+    font-size: 16px;
+    font-weight: 500;
+    color: $link-color;
+}
